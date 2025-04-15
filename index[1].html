@@ -1,0 +1,62 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Amazomaroc - Moroccan Products</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Amazomaroc</h1>
+    <nav>
+      <select id="languageSelector">
+        <option value="ar">العربية</option>
+        <option value="fr">Français</option>
+        <option value="en" selected>English</option>
+        <option value="nl">Nederlands</option>
+      </select>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Authentic Moroccan Products Delivered to You</h2>
+    <p>Discover handmade, natural and local products from Morocco</p>
+  </section>
+
+  <section class="products">
+    <h3>Popular Categories</h3>
+    <div class="product-list">
+      <div class="product">
+        <img src="images/argan-oil.jpg" alt="Argan Oil">
+        <h4>Argan Oil</h4>
+        <p>$15</p>
+        <button>Add to Cart</button>
+      </div>
+      <div class="product">
+        <img src="images/caftan.jpg" alt="Caftan">
+        <h4>Moroccan Caftan</h4>
+        <p>$80</p>
+        <button>Add to Cart</button>
+      </div>
+      <div class="product">
+        <img src="images/zrabiya.jpg" alt="Zrabiya">
+        <h4>Zrabiya</h4>
+        <p>$120</p>
+        <button>Add to Cart</button>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Amazomaroc. All rights reserved.</p>
+  </footer>
+
+  <script>
+    document.getElementById('languageSelector').addEventListener('change', function(e) {
+      alert('Language switched to: ' + e.target.value);
+    });
+  </script>
+</body>
+</html>

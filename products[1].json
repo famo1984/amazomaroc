@@ -1,0 +1,21 @@
+
+[
+  {
+    "id": 1,
+    "name": "Argan Oil",
+    "price": 15,
+    "image": "images/argan-oil.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Moroccan Caftan",
+    "price": 80,
+    "image": "images/caftan.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Zrabiya",
+    "price": 120,
+    "image": "images/zrabiya.jpg"
+  }
+]
